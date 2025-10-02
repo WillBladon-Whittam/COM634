@@ -34,7 +34,7 @@ plt.xlabel("Minutes per Day")
 
 # Plot 3: Heatmap of Correlation Between Variables
 plt.figure(figsize=(10,6))
-sns.heatmap(df[["App_Usage_Time", "Screen_On_Time", "Battery_Drain", "Number_of_Apps_Installed", "Data_Usage", "Age", "User_Behavior_Class"]].corr(), annot=True, cmap='coolwarm')
+sns.heatmap(df[["App_Usage_Time", "Screen_On_Time", "Battery_Drain", "Number_of_Apps_Installed", "Data_Usage", "User_Behavior_Class"]].corr(), annot=True, cmap='coolwarm')
 plt.title("Correlation Between Variables")
 
 # Plot 4: Average Screen-On Time by Operating System

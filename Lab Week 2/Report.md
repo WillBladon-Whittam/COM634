@@ -32,28 +32,25 @@ Summary Table: A summary table was created to provide descriptive statistics for
 
 Summary Statistics for Screen-On Time:
 
-Mean: 5.63 hours/day
-Median: 5.10 hours/day
-Mode: 4.5 hours/day
-Standard Deviation: 1.72 hours
-Range: 6.7 hours (maximum screen-on time: 10.5 hours, minimum: 3.8 hours)
-
-The dataset showed that on average, users spend about 5.63 hours per day with their screens on. 
-The data also indicates that the distribution of screen-on time is skewed, with a concentration around 4.5 hours per day.
+Mean: 5.27 hours/day
+Median: 4.9 hours/day
+Mode: 1.6 hours/day
+Standard Deviation: 3.07 hours
+Range: 11.0 hours (maximum screen-on time: 10.5 hours, minimum: 3.8 hours)
 
 Visualizations:
 
-Histogram of Screen-On Time: A distribution plot of screen-on time shows the majority of users having moderate screen-on time (around 4-6 hours).
+Histogram of Screen-On Time: A distribution plot of screen-on time shows the majority of users having low screen-on time (around 1-2 hours).
 Boxplot of App Usage Time: The boxplot for app usage time highlights the presence of a few users who spend significantly more time on apps compared to the rest of the dataset.
-Heatmap of Correlation: The correlation heatmap shows a moderate positive correlation between screen-on time and app usage time, while battery drain shows a weak negative correlation with screen-on time.
+Heatmap of Correlation: The correlation heatmap shows a positive correlation between all variables.
 
 Grouped Analysis:
 
 The average screen-on time by operating system is as follows:
-Android Users: 5.75 hours/day
-iOS Users: 5.42 hours/day
+Android Users: 5.1 hours/day
+iOS Users: 5.4 hours/day
 
-Android users tend to have slightly higher screen-on time compared to iOS users.
+IOS users tend to have slightly higher screen-on time compared to Android users.
 
 4. Discussion
 
