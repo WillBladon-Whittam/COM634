@@ -12,11 +12,10 @@ print(df.info())
 
 sns.pairplot(df)
 plt.suptitle("Pairwise Relationships", y=1.02)
-plt.show()
 
-sns.heatmap(df.corr(), annot=True, cmap='coolwarm')
+plt.figure(figsize=(8,5))
+sns.heatmap(df[["Avg. Area Income", "Avg. Area House Age", "Avg. Area Number of Rooms", "Avg. Area Number of Bedrooms", "Area Population", "Price"]].corr(), annot=True, cmap='coolwarm')
 plt.title("Correlation Heatmap")
-plt.show()
 
 X = df[['Avg. Area Income', 'Avg. Area House Age', 'Avg. Area Number of Rooms',
         'Avg. Area Number of Bedrooms', 'Area Population']]
@@ -39,9 +38,9 @@ r2 = r2_score(y_test, y_pred)
 print("Mean Squared Error:", mse)
 print("R-squared:", r2)
 
+plt.figure(figsize=(8,5))
 plt.scatter(y_test, y_pred, color='purple')
 plt.xlabel("Actual Prices")
 plt.ylabel("Predicted Prices")
 plt.title("Actual vs Predicted House Prices")
 plt.show()
-
